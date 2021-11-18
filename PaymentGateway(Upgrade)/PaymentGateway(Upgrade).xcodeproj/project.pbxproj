@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B45ABCD427332A1500C01958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45ABCD327332A1500C01958 /* AppDelegate.swift */; };
+		B45ABCD627332A1500C01958 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45ABCD527332A1500C01958 /* SceneDelegate.swift */; };
+		B45ABCD827332A1500C01958 /* PaymentTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45ABCD727332A1500C01958 /* PaymentTypeViewController.swift */; };
+		B45ABCDB27332A1500C01958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45ABCD927332A1500C01958 /* Main.storyboard */; };
+		B45ABCDD27332A1700C01958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45ABCDC27332A1700C01958 /* Assets.xcassets */; };
+		B45ABCE027332A1700C01958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45ABCDE27332A1700C01958 /* LaunchScreen.storyboard */; };
+		B45ABCE827332B4400C01958 /* CardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45ABCE727332B4400C01958 /* CardDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B45ABCD027332A1500C01958 /* PaymentGateway(Upgrade).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PaymentGateway(Upgrade).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45ABCD327332A1500C01958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B45ABCD527332A1500C01958 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B45ABCD727332A1500C01958 /* PaymentTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTypeViewController.swift; sourceTree = "<group>"; };
+		B45ABCDA27332A1500C01958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B45ABCDC27332A1700C01958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B45ABCDF27332A1700C01958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B45ABCE127332A1700C01958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B45ABCE727332B4400C01958 /* CardDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B45ABCCD27332A1500C01958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B45ABCC727332A1500C01958 = {
+			isa = PBXGroup;
+			children = (
+				B45ABCD227332A1500C01958 /* PaymentGateway(Upgrade) */,
+				B45ABCD127332A1500C01958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B45ABCD127332A1500C01958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B45ABCD027332A1500C01958 /* PaymentGateway(Upgrade).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B45ABCD227332A1500C01958 /* PaymentGateway(Upgrade) */ = {
+			isa = PBXGroup;
+			children = (
+				B45ABCEE2733338C00C01958 /* Models */,
+				B45ABCED2733336E00C01958 /* Views */,
+				B45ABCEC2733335F00C01958 /* Controllers */,
+				B45ABCEB2733335000C01958 /* Storyboards */,
+				B45ABCEA2733334300C01958 /* Delegates */,
+				B45ABCE92733312200C01958 /* Resources */,
+			);
+			path = "PaymentGateway(Upgrade)";
+			sourceTree = "<group>";
+		};
+		B45ABCE92733312200C01958 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B45ABCDC27332A1700C01958 /* Assets.xcassets */,
+				B45ABCE127332A1700C01958 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B45ABCEA2733334300C01958 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B45ABCD327332A1500C01958 /* AppDelegate.swift */,
+				B45ABCD527332A1500C01958 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		B45ABCEB2733335000C01958 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B45ABCD927332A1500C01958 /* Main.storyboard */,
+				B45ABCDE27332A1700C01958 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B45ABCEC2733335F00C01958 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B45ABCD727332A1500C01958 /* PaymentTypeViewController.swift */,
+				B45ABCE727332B4400C01958 /* CardDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B45ABCED2733336E00C01958 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B45ABCEE2733338C00C01958 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B45ABCCF27332A1500C01958 /* PaymentGateway(Upgrade) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B45ABCE427332A1700C01958 /* Build configuration list for PBXNativeTarget "PaymentGateway(Upgrade)" */;
+			buildPhases = (
+				B45ABCCC27332A1500C01958 /* Sources */,
+				B45ABCCD27332A1500C01958 /* Frameworks */,
+				B45ABCCE27332A1500C01958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PaymentGateway(Upgrade)";
+			productName = "PaymentGateway(Upgrade)";
+			productReference = B45ABCD027332A1500C01958 /* PaymentGateway(Upgrade).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B45ABCC827332A1500C01958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B45ABCCF27332A1500C01958 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = B45ABCCB27332A1500C01958 /* Build configuration list for PBXProject "PaymentGateway(Upgrade)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B45ABCC727332A1500C01958;
+			productRefGroup = B45ABCD127332A1500C01958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B45ABCCF27332A1500C01958 /* PaymentGateway(Upgrade) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B45ABCCE27332A1500C01958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45ABCE027332A1700C01958 /* LaunchScreen.storyboard in Resources */,
+				B45ABCDD27332A1700C01958 /* Assets.xcassets in Resources */,
+				B45ABCDB27332A1500C01958 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B45ABCCC27332A1500C01958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45ABCD827332A1500C01958 /* PaymentTypeViewController.swift in Sources */,
+				B45ABCE827332B4400C01958 /* CardDetailsViewController.swift in Sources */,
+				B45ABCD427332A1500C01958 /* AppDelegate.swift in Sources */,
+				B45ABCD627332A1500C01958 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B45ABCD927332A1500C01958 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B45ABCDA27332A1500C01958 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B45ABCDE27332A1700C01958 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B45ABCDF27332A1700C01958 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B45ABCE227332A1700C01958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B45ABCE327332A1700C01958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B45ABCE527332A1700C01958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PaymentGateway(Upgrade)/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omatech.PaymentGateway-Upgrade-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B45ABCE627332A1700C01958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PaymentGateway(Upgrade)/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omatech.PaymentGateway-Upgrade-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B45ABCCB27332A1500C01958 /* Build configuration list for PBXProject "PaymentGateway(Upgrade)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45ABCE227332A1700C01958 /* Debug */,
+				B45ABCE327332A1700C01958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B45ABCE427332A1700C01958 /* Build configuration list for PBXNativeTarget "PaymentGateway(Upgrade)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45ABCE527332A1700C01958 /* Debug */,
+				B45ABCE627332A1700C01958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B45ABCC827332A1500C01958 /* Project object */;
+}
