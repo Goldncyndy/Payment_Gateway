@@ -14,6 +14,7 @@
 		B45ABCDD27332A1700C01958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45ABCDC27332A1700C01958 /* Assets.xcassets */; };
 		B45ABCE027332A1700C01958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45ABCDE27332A1700C01958 /* LaunchScreen.storyboard */; };
 		B45ABCE827332B4400C01958 /* CardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45ABCE727332B4400C01958 /* CardDetailsViewController.swift */; };
+		B4D4444327DB749300426FBC /* PaystackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D4444227DB749300426FBC /* PaystackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B45ABCDF27332A1700C01958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B45ABCE127332A1700C01958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B45ABCE727332B4400C01958 /* CardDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsViewController.swift; sourceTree = "<group>"; };
+		B4D4444227DB749300426FBC /* PaystackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaystackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				B45ABCD727332A1500C01958 /* PaymentTypeViewController.swift */,
 				B45ABCE727332B4400C01958 /* CardDetailsViewController.swift */,
+				B4D4444227DB749300426FBC /* PaystackViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			files = (
 				B45ABCD827332A1500C01958 /* PaymentTypeViewController.swift in Sources */,
 				B45ABCE827332B4400C01958 /* CardDetailsViewController.swift in Sources */,
+				B4D4444327DB749300426FBC /* PaystackViewController.swift in Sources */,
 				B45ABCD427332A1500C01958 /* AppDelegate.swift in Sources */,
 				B45ABCD627332A1500C01958 /* SceneDelegate.swift in Sources */,
 			);

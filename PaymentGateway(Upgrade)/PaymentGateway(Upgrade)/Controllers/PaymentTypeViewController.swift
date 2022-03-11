@@ -164,7 +164,7 @@ class PaymentTypeViewController: UIViewController, UIGestureRecognizerDelegate {
       payPalView.addGestureRecognizer(tapGesture)
   }
   @objc func onClickOnPayPalView(sender: UITapGestureRecognizer) {
-    let newController = CardDetailsViewController()
+    let newController = PaystackViewController()
     navigationController?.pushViewController(newController, animated: true)
   }
   // MARK: - ADD GESTURE RECOGNIZER TO MASTERCARD VIEW
